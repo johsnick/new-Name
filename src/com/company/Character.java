@@ -17,7 +17,6 @@ public class Character {
         }
         name = in.nextLine();
         level= in.nextInt();
-        in.nextLine();
     }
     public String toString(){
         return "Name: " + name +
